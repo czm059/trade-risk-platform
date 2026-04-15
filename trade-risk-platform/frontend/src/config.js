@@ -7,4 +7,4 @@ const isDev = window.location.hostname === 'localhost' ||
 // 开发环境用本地后端，生产环境用 Render 后端
 export const API_BASE_URL = isDev 
   ? "http://127.0.0.1:8000" 
-  : "https://trade-risk-backend.onrender.com";  // 部署后改成实际地址
+  : "https://trade-risk-platform.onrender.com";  // 部署后改成实际地址
